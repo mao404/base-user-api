@@ -8,6 +8,8 @@ const express = require('express')
  */
 const getAllUsers = (req, res) => {
     
+    //Testing the error handler
+    //throw new Error('Testing error handler')
     const users = [
         {
             id: 1,
